@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<style>
+    .header {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 14px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto Slab', sans-serif;
+    }
+    .flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    }   
+    .search-bar {
+        display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+        min-height: 60vh;
+    }
+    #google {
+        display: flex;
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+    }
+    #logo{
+        display: flex;
+        position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30%; 
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:white;
+    }
+    li {
+        float: left;
+    }
+    li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    }
+    li a:hover {
+        text-decoration: underline;
+    }
+</style>
+<html>
+<head>
+    <h1></h1>
+</head>
+<body>
+<div class="header">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li ><a href="#store">Store</a></li>
+        <li style="float:right"><a href="#gmail">Gmail</a></li>
+        <li style="float:right"><a href="#images">Images</a></li>
+        <li style="float:right"><a href="#signin">Sign in</a></li>
+      </ul>
+</div>
+<div class="flex-wrapper">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="logo"><br>
+
+</div>
+<div class="search-bar">
+    <input type="text" id="google" name="google">
+</div>
+<div class="footer">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li ><a href="#store">Store</a></li>
+        <li style="float:right"><a href="#gmail">Gmail</a></li>
+        <li style="float:right"><a href="#images">Images</a></li>
+        <li style="float:right"><a href="#signin">Sign in</a></li>
+      </ul>
+</div>
+
+</body>
+</html>
